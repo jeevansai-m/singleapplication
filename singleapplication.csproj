@@ -244,6 +244,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Layout.html" />
+    <Content Include="Scripts\AppCommon\commonServices.js" />
+    <Content Include="Scripts\AppCommon\controllers.js" />
+    <Content Include="Scripts\AppCommon\dataServices.js" />
+    <Content Include="Scripts\AppCommon\module.js" />
     <Content Include="Scripts\app\_run.js" />
     <Content Include="Scripts\app\app.datamodel.js" />
     <Content Include="Scripts\app\app.viewmodel.js" />
@@ -280,9 +284,11 @@
     <Content Include="Scripts\knockout.validation.js" />
     <Content Include="Scripts\knockout.validation.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\prototype.js" />
     <Content Include="Scripts\sammy-0.7.5.js" />
     <Content Include="Scripts\sammy-0.7.5.min.js" />
     <Content Include="Styles\login-style.css" />
+    <Content Include="Styles\main-style.css" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -321,6 +327,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Scripts\knockout.validation.min.js.map" />
+    <Content Include="Scripts\Routes\default.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -1,0 +1,35 @@
+{
+  "AllRoutes": [
+    {
+      "KeyName": "",
+      "PageUrl": "PartialViews/Shared/home.html",
+      "Controller": "HomeController",
+      "controllerAs": "HomeCtrl"
+    },
+    {
+      "KeyName": "error",
+      "PageUrl": "PartialViews/Shared/error.html",
+      "Controller": "ErrorController",
+      "controllerAs": "ErrorCtrl"
+    },
+    {
+      "KeyName": "home",
+      "PageUrl": "PartialViews/Shared/home.html",
+      "Controller": "HomeController",
+      "controllerAs": "HomeCtrl"
+    },
+    {
+      "KeyName": "dashboard",
+      "PageUrl": "PartialViews/Shared/dashboard.html",
+      "Controller": "DashboardController",
+      "controllerAs": "DashboardCtrl",
+      "FilePath": "Scripts/Dashboard/Dashboard.js"
+    },
+    {
+      "KeyName": "users",
+      "PageUrl": "PartialViews/Admin/users.html",
+      "Controller": "UsersController",
+      "controllerAs": "UsersCtrl"
+    }
+  ]
+}
