@@ -6,6 +6,7 @@ MainApp.service("commonServices", ['$rootScope', '$location', '$uibModal', 'Auth
         console.log(reason.data);
         $location.path("/error");
     }
+    //jeevan
 
     this.SuccessMsg = function (message) {
         var modalInstance = $uibModal.open({
